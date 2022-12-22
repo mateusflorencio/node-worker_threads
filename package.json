@@ -1,0 +1,15 @@
+{
+  "name": "workers",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "simple": "node src/simple",
+    "workers": "node src/workers",
+    "listen": "node src/workers/socket-listen.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
