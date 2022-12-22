@@ -7,7 +7,9 @@
   "scripts": {
     "simple": "node src/simple",
     "workers": "node src/workers",
-    "listen": "node src/workers/socket-listen.js"
+    "workers:listen": "node src/workers/socket-listen.js",
+    "simple:no:block": "node src/simple-no-block",
+    "simple:listen": "node src/simple-no-block/socket-listen.js"
   },
   "keywords": [],
   "author": "",
